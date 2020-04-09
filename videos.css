@@ -1,0 +1,18 @@
+@import "main.css";
+
+iframe {
+    width: 50%;
+}
+
+#title {
+    width: 100%;
+}
+
+.title-contents {
+    color: aqua;
+}
+
+#videos {
+    display: flex;
+    justify-content: center;
+}
