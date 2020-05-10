@@ -1,6 +1,8 @@
 body {
     background-color: bisque;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(wallpaper-defaultres.png);
+    background-size: 100% 100%;
 }
 
 * {
