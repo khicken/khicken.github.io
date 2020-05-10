@@ -1,7 +1,8 @@
 @import "main.css";
 
 iframe {
-    width: 50%;
+    width: 1280px;
+    height: 720px;
 }
 
 #title {
