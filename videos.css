@@ -10,10 +10,12 @@ iframe {
 }
 
 .title-contents {
-    color: aqua;
+    color: black;
+    font-size: 30px;
 }
 
-#videos {
+#video-container {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
