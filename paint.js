@@ -98,6 +98,7 @@ document.getElementById('button_clear').addEventListener('click', () => {
 }, false);
 
 document.getElementById('button_download').addEventListener('click', () => {
+    console.log('image downloading?');
     image = canvas.toDataURL("image/png", 1.0).replace("image/png", "image/octet-stream");
     var link = document.createElement('a');
     link.download = "download.png";
