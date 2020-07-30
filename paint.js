@@ -97,10 +97,10 @@ document.getElementById('button_clear').addEventListener('click', () => {
     memCtx.clearRect(0, 0, canvas.width, canvas.height);
 }, false);
 
-document.getElementById('button_download').addEventListener('click', (e) => {
-    var dataURL = canvas.toDataURL('image/png'); // save canvas to a png image
+document.getElementById('button_download').addEventListener('click', () => {
+    // var dataURL = canvas.toDataURL('image/png'); // save canvas to a png image
     document.write('<img src="'+img+'"/>'); // write to the document an image source
-    document.getElementById('button_download').href = dataURL;
+    getElementById('button_download').setAttribute("href", image); // redirect to download link
 });
 
 // brush control
