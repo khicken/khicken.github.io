@@ -98,10 +98,12 @@ document.getElementById('button_clear').addEventListener('click', () => {
 }, false);
 
 document.getElementById('button_download').addEventListener('click', () => {
-    // var dataURL = canvas.toDataURL('image/png'); // save canvas to a png image
-    document.write('<img src="'+img+'"/>'); // write to the document an image source
-    getElementById('button_download').setAttribute("href", image); // redirect to download link
-});
+    image = canvas.toDataURL("image/png", 1.0).replace("image/png", "image/octet-stream");
+    var link = document.createElement('a');
+    link.download = "download.png";
+    link.href = image;
+    link.click();
+}, false);
 
 // brush control
 function changeBrush(type, value) {
