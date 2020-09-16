@@ -1,5 +1,10 @@
 @import "main.css";
 
+body {
+    background: url('assets/background.png');
+    background-size: cover;
+}
+
 #main {
     width: 100%;
     /*align-self: center;

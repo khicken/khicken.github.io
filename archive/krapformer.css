@@ -1,0 +1,46 @@
+@import "main.css";
+@import "slider.css";
+
+/* Text Contents (some inherited) */
+#main {
+    width: 100%;
+}
+
+p {
+    color: black;
+    font-family: 'Trebuchet MS', 'Verdana', Arial, sans-serif;
+}
+
+.main-contents {
+    width: 100%;
+    text-align: center;
+}
+
+/* Modified Inherited Other Stuff Content */
+button {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    color: black;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, 'Trebuchet MS', Tahoma, sans-serif;
+    font-size: 20px;
+
+    cursor: hand;
+}
+
+/* Paint Contents */
+.game-container {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#krapformer_canvas {
+    background-color: white;
+    border: 2px solid black;
+}
