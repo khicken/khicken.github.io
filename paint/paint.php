@@ -6,18 +6,7 @@
 
     </head>
     <body>
-        <!-- Page Header -->
-        <div class="title">
-            <h6 class="nonselectable">theKlebSite</h6>
-        </div>
-        <div>
-            <ul class="navbar nonselectable">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="videos.html">Videos</a></li>
-                <li style="float:right"><a href="../game/game.html">???</a></li>
-                <li style="float:right"><a href="paint.html" class="active">Paint</a></li>
-            </ul>
-        </div>
+        <?php include "./../header.php" ?>
 
         <!-- Page Contents -->
         <div id="main">

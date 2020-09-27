@@ -141,3 +141,10 @@ li a:hover {
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
+
+.footer-container {
+    background-color: white;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}

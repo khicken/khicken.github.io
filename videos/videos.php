@@ -5,18 +5,7 @@
         <link rel="stylesheet" href="videos.css"/>
     </head>
     <body>
-        <!-- Page Header -->
-        <div class="title">
-            <h6 class="nonselectable">theKlebSite</h6>
-        </div>
-        <div>
-            <ul class="navbar nonselectable">
-                <li><a href="index.html">Home</a></li>
-                <li><a class="active" href="videos.html">Videos</a></li>
-                <li style="float:right"><a href="krapformer.html">Weird Game Thing</a></li>
-                <li style="float:right"><a href="paint.html">Paint</a></li>
-            </ul>
-        </div>
+        <?php include "./../header.php" ?>
 
         <!-- Page Contents -->
         <div class="video-container">
