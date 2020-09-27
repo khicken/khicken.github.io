@@ -1,4 +1,4 @@
-@import "main.css";
+@import "./../global/main.css";
 
 iframe {
     width: 70%;

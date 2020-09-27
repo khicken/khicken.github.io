@@ -1,0 +1,23 @@
+@import "./../global/main.css";
+
+body {
+    background: url('./../assets/background.png');
+    background-size: cover;
+}
+
+#main {
+    width: 100%;
+    /*align-self: center;
+
+    display: flex;
+    justify-content: center;*/
+}
+
+.main-contents {
+    width: 100%;
+    text-align: center;
+}
+
+#bottom {
+    align-self: flex-end;
+}

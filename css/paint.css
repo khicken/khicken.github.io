@@ -1,5 +1,5 @@
-@import "main.css";
-@import "slider.css";
+@import "./../global/main.css";
+@import "./../global/slider.css";
 
 /* Text Contents (some inherited) */
 #main {
@@ -31,7 +31,10 @@ button {
 }
 
 /* Paint Contents */
-.game-container {
+.paint-container {
+    border: 1px solid grey;
+    border-radius: 5px;
+
     width: 100%;
 
     display: flex;
@@ -40,7 +43,31 @@ button {
     align-items: center;
 }
 
-#krapformer_canvas {
+.paint {
+    width: 80%;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+
+#canvas {
     background-color: white;
     border: 2px solid black;
+
+    cursor: crosshair;
+}
+
+.paint-buttons {
+    width: 20%;
+
+    padding: 10px;
+    display: flex;
+}
+
+.dropdown-btn {
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: black;
 }
