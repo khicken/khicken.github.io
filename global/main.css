@@ -149,6 +149,6 @@ h6 {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    position: fixed;
-    bottom: 0;
+    position: relative;
+    bottom: 0px;
 }

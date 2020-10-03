@@ -1,0 +1,10 @@
+@import "./../global/main.css";
+
+#main {
+    width: 75%;
+}
+
+.main-contents {
+    margin: 5px 10% 5px 10%;
+    padding: 20px;
+}
